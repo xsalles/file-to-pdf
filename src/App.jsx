@@ -38,7 +38,7 @@ export default function Upload() {
           type="file"
           className="input-container"
           hidden
-          accept="images/jpeg"
+          accept="images/"
           onChange={({ target: { files } }) => {
             if (files[0]) {
               setFileName(files[0].name);
